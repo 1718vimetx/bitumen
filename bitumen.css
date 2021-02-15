@@ -125,7 +125,7 @@ ul {
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:768px) and (min-width:500px) {
     .navbarlinks {
         position: absolute;
         right: -50%;
@@ -136,6 +136,28 @@ ul {
         flex-direction: column;
         align-items: center;
         width: 50%;
+        transform: translateX(0%);
+        transition: transform 0.5s ease-in;
+    }
+    .navbarlinks li {
+        opacity: 0;
+    }
+    .burger {
+        display: block;
+    }
+}
+
+@media screen and (max-width:500px){
+    .navbarlinks {
+        position: absolute;
+        right: -75%;
+        height: 92vh;
+        top: 8vh;
+        background-color: #521329;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 75%;
         transform: translateX(0%);
         transition: transform 0.5s ease-in;
     }
