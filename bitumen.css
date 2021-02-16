@@ -2,7 +2,6 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
-	bakcground-color:#fff;
 }
 
 ::-webkit-scrollbar {
@@ -21,7 +20,7 @@
 
 
 body {
-    background-color: #1F3B6F;
+    	bakcground-color:#fff;
     margin:0;
     height: 400vh;
 }
