@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ca">
+<html>
+    <head>
+        <title>BitumEn</title>
+        <link rel="icon" href="https://cdn.pixabay.com/photo/2018/08/08/16/15/meditation-3592516_1280.png">
+        <meta charset="UTF-8">
+        <style>
+            @import url(bitumen.css);
+            @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@300&display=swap');
+        </style>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body onresize="resize()">
+        <div id="navbar">
+            <div id="bitlogocontainer">
+                <a id="bitlogo" href="bitumen.html">BitumEn</a>
+            </div>
+            <div id="navbarcontainer">
+                <ul class="navbarlinks">
+                    <li class="navbaritem">
+                        <a href="#presentaciocontainer">Home</a>
+                    </li>
+                    <li class="navbaritem">
+                        <a>Benefits</a>
+                    </li>
+                    <li class="navbaritem">
+                        <a href="#gogetapp">Get the app</a>
+                    </li>
+                    <li class="navbaritem">
+                        <a>Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+        <main>
+            <section id="presentaciocontainer">
+                <div class="container">
+                    <h1>What is BituMind?</h1>
+                </div>
+                <div class="container" id="presentacio">
+                    <div id="budadiv">
+                        <img src="https://cdn.pixabay.com/photo/2018/08/08/16/15/meditation-3592516_1280.png" alt="budaPhoto">
+                    </div>
+                    <div>
+                        <p>BitumEn is an app created to teach people meditation techniques, that may help them go through hard situations.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="getapp">
+                <a class="anchor" id="gogetapp"></a>
+                <div class="container">
+                    <h1>How to get app</h1>
+                </div>
+                <div class="container">
+                    <p>You can download the app with an .apk or a .aia.</br>Click on one of these buttons to download it:</p>
+                </div>
+                <div class="container" id="download">
+                    <form>
+                        <button class="downloadapp" onclick="appNotAvailable()">
+                            <div class="imgcontainer">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/APK_format_icon.png" alt="Android logo">
+                            </div>
+                            <a>Download .apk</a>
+                        </button>
+                    </form>
+                    
+                    <form>
+                        <button class="downloadapp" onclick="appNotAvailable()">
+                            <div class="imgcontainer">
+                                <img src="https://codigo21.educacion.navarra.es/wp-content/uploads/2020/02/App_inventor_II.png" alt="App inventor logo">
+                            </div>
+                            <a>Download .aia</a>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <section>
+            <footer>
+                <div class="footerdiv">
+
+                </div>
+                <div class="footerdiv">
+
+                </div>
+                <div class="footerdiv">
+                    
+                </div>
+            </footer>
+        </section>
+        <script type="text/javascript" src="bitumen.js"></script>
+    </body>
+</html>
+
+
